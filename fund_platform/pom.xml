@@ -12,10 +12,21 @@
     <artifactId>fund_platform</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>fund_platform</name>
+
+    <modules>
+        <module>fund_platform_common</module>
+        <module>fund_platform_service</module>
+        <module>fund_platform_job</module>
+        <module>fund_platform_api</module>
+        <module>fund_platform_start</module>
+    </modules>
+    <packaging>pom</packaging>
+
     <description>fund_platform project for Spring Boot</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
