@@ -18,6 +18,7 @@
         <module>fund_platform_service</module>
         <module>fund_platform_job</module>
         <module>fund_platform_api</module>
+        <module>fund_platform_model</module>
         <module>fund_platform_start</module>
     </modules>
     <packaging>pom</packaging>
