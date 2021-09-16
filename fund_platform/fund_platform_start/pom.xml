@@ -29,7 +29,7 @@
         </dependency>
         <dependency>
             <groupId>com.fund.platform</groupId>
-            <artifactId>fund_platform_api</artifactId>
+            <artifactId>fund_api_user</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
