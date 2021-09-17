@@ -3,11 +3,11 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<artifactId>fund_platform</artifactId>
+		<artifactId>fund_platform_api</artifactId>
 		<groupId>com.fund.platform</groupId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>fund_api_user</artifactId>
+	<artifactId>fund_api_system</artifactId>
 
 
 	<dependencies>
@@ -16,6 +16,12 @@
 			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>-->
 
+		<dependency>
+			<groupId>com.fund.platform</groupId>
+			<artifactId>fund_platform_common</artifactId>
+			<version>${fund_platform.version}</version>
+			<scope>compile</scope>
+		</dependency>
 	</dependencies>
 
 	<build>

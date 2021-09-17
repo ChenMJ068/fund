@@ -11,7 +11,7 @@
 
     <artifactId>fund_platform_api</artifactId>
     <modules>
-        <module>fund_api_user</module>
+        <module>fund_api_system</module>
     </modules>
 
 </project>

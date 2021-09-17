@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.fund.platform</groupId>
     <artifactId>fund_platform</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>${fund_platform.version}</version>
     <name>fund_platform</name>
 
     <modules>
@@ -24,12 +24,24 @@
     <description>fund_platform project for Spring Boot</description>
     <properties>
         <java.version>1.8</java.version>
+        <fund_platform.version>0.0.1-SNAPSHOT</fund_platform.version>
+        <mybatis-plus.version>3.2.0</mybatis-plus.version>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <version>${mybatis-plus.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-generator</artifactId>
+            <version>${mybatis-plus.version}</version>
         </dependency>
         <!--<dependency>
             <groupId>org.springframework.boot</groupId>
