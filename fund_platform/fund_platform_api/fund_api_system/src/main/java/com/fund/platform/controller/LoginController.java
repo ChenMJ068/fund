@@ -1,6 +1,6 @@
 package com.fund.platform.controller;
 
-import com.fund.platform.base.RespResultData;
+import com.fund.platform.base.RespResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -14,8 +14,8 @@ import java.util.Map;
 public class LoginController {
 
     @GetMapping("/login")
-    public RespResultData login(){
-        RespResultData resultData = new RespResultData();
+    public RespResult login(){
+        RespResult resultData = new RespResult();
         resultData.setRespCode("0000");
         resultData.setRespMessage("成功");
 
