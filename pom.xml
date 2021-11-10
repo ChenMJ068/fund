@@ -215,6 +215,7 @@
         <module>fund-quartz</module>
         <module>fund-generator</module>
         <module>fund-common</module>
+        <module>fund-modules</module>
     </modules>
     <packaging>pom</packaging>
 
