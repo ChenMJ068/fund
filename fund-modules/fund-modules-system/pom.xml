@@ -3,51 +3,16 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>fund</artifactId>
+        <artifactId>fund-modules</artifactId>
         <groupId>com.fund</groupId>
-        <version>3.7.0</version>
+        <version>1.0.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>fund-modules-system</artifactId>
 
     <dependencies>
-
-        <!-- 通用工具-->
-        <dependency>
-            <groupId>com.fund</groupId>
-            <artifactId>fund-common</artifactId>
-        </dependency>
-        <!-- spring-boot-devtools -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-devtools</artifactId>
-            <optional>true</optional> <!-- 表示依赖不会传递 -->
-        </dependency>
-
-        <!-- Mysql驱动包 -->
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-        </dependency>
-
-        <!-- 核心模块-->
-        <dependency>
-            <groupId>com.fund</groupId>
-            <artifactId>fund-framework</artifactId>
-        </dependency>
-
-        <!-- 定时任务-->
-        <dependency>
-            <groupId>com.fund</groupId>
-            <artifactId>fund-quartz</artifactId>
-        </dependency>
-
-        <!-- 代码生成-->
-        <dependency>
-            <groupId>com.fund</groupId>
-            <artifactId>fund-generator</artifactId>
-        </dependency>
+        
     </dependencies>
 
 </project>

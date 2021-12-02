@@ -6,14 +6,13 @@
 	
     <groupId>com.fund</groupId>
     <artifactId>fund</artifactId>
-    <version>3.7.0</version>
+    <version>1.0.0-SNAPSHOT</version>
 
     <name>fund</name>
-    <url>http://www.fund.vip</url>
-    <description>若依管理系统</description>
+    <description>资金管理系统</description>
     
     <properties>
-        <fund.version>3.7.0</fund.version>
+        <fund.version>1.0.0-SNAPSHOT</fund.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
@@ -170,41 +169,6 @@
                 <version>${kaptcha.version}</version>
             </dependency>
 
-            <!-- 定时任务-->
-            <dependency>
-                <groupId>com.fund</groupId>
-                <artifactId>fund-quartz</artifactId>
-                <version>${fund.version}</version>
-            </dependency>
-
-            <!-- 代码生成-->
-            <dependency>
-                <groupId>com.fund</groupId>
-                <artifactId>fund-generator</artifactId>
-                <version>${fund.version}</version>
-            </dependency>
-
-            <!-- 核心模块-->
-            <dependency>
-                <groupId>com.fund</groupId>
-                <artifactId>fund-framework</artifactId>
-                <version>${fund.version}</version>
-            </dependency>
-
-            <!-- 系统模块-->
-            <dependency>
-                <groupId>com.fund</groupId>
-                <artifactId>fund-system</artifactId>
-                <version>${fund.version}</version>
-            </dependency>
-
-            <!-- 通用工具-->
-            <dependency>
-                <groupId>com.fund</groupId>
-                <artifactId>fund-common</artifactId>
-                <version>${fund.version}</version>
-            </dependency>
-
         </dependencies>
     </dependencyManagement>
 
@@ -216,13 +180,10 @@
         <module>fund-generator</module>
         <module>fund-common</module>
         <module>fund-modules</module>
+        <module>fund-service</module>
     </modules>
     <packaging>pom</packaging>
 
-
-    <dependencies>
-
-    </dependencies>
 
     <build>
         <plugins>
